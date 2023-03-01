@@ -1,5 +1,5 @@
-C++ Multithreaded Sudoku Validator using POSIX pthreads
-=======================================================
+C++ Multithreaded Sudoku Validator using POSIX
+==============================================
 ### How to Compile 
 ```bash
 $ g++ -std=c++11 -pthread Sudoku-Validator.cpp -o sudoku-validator
