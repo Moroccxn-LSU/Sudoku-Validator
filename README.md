@@ -10,7 +10,7 @@ $ g++ -std=c++11 -pthread Sudoku-Validator.cpp -o sudoku-validator
 $ ./sudoku-validator <sudoku-solution-filename> <results-filename>
 ```
 
-### NOTE: the defualt number of threads is 3, but changing the NUM_THREADS variable in the source code will change the number of threads being used
+### NOTE: The default number of threads is 3, but changing the NUM_THREADS variable in the source code will change the number of threads being used. A sample valid sudoku solution is provided for tests.
 
 ### Expected Output for Valid Sudoku Solution using 3 Threads:
 ```bash
